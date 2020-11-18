@@ -1,0 +1,7 @@
+<templateSet group="Maven">
+  <template name="mysqll" value="&lt;dependencies&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;            &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;            &lt;version&gt;8.0.22&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;&lt;/dependencies&gt;" shortcut="ENTER" description="&lt;dependencies&gt;         &lt;dependency&gt;             &lt;groupId&gt;mysql&lt;/groupId&gt;             &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;             &lt;version&gt;8.0.22&lt;/version&gt;         &lt;/dependency&gt;     &lt;/dependencies&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

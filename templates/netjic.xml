@@ -1,0 +1,47 @@
+<templateSet group="netjic">
+  <template name="mmsql" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;      &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;      &lt;version&gt;8.0.22&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="mysql-connector-java" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mlombok" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;&#10;      &lt;artifactId&gt;lombok&lt;/artifactId&gt;&#10;      &lt;version&gt;1.18.16&lt;/version&gt;&#10;      &lt;scope&gt;provided&lt;/scope&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="lombok1.18.16" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mjunit" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;junit&lt;/groupId&gt;&#10;      &lt;artifactId&gt;junit&lt;/artifactId&gt;&#10;      &lt;version&gt;4.13.1&lt;/version&gt;&#10;      &lt;scope&gt;test&lt;/scope&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="junit4.13.1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mpom" value=" &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#10;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#10;&#10;&lt;groupId&gt;cn.wei&lt;/groupId&gt;&#10;&lt;artifactId&gt;jsp003&lt;/artifactId&gt;&#10;&lt;version&gt;1.0&lt;/version&gt;&#10;&lt;packaging&gt;war&lt;/packaging&gt;&#10;&#10;&lt;properties&gt;&#10;  &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;&#10;  &lt;maven.compiler.source&gt;11&lt;/maven.compiler.source&gt;&#10;  &lt;maven.compiler.target&gt;11&lt;/maven.compiler.target&gt;&#10;&lt;/properties&gt;&#10;&#10;&lt;dependencies&gt;&#10;&#10;&lt;/dependencies&gt;&#10;&lt;/project&gt;" shortcut="ENTER" description="pom.xml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="jsp" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="ENTER" description="&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt;     &lt;meta charset=&quot;UTF-8&quot;&gt;     &lt;title&gt;Title&lt;/title&gt; &lt;/head&gt; &lt;body&gt;  &lt;/body&gt; &lt;/html&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="mbuild" value="&lt;build&gt;&#10;        &lt;finalName&gt;${project.artifactId}&lt;/finalName&gt;&#10;        &lt;testSourceDirectory&gt;src/test/java&lt;/testSourceDirectory&gt;&#10;        &lt;sourceDirectory&gt;src/main/java&lt;/sourceDirectory&gt;&#10;        &lt;!--处理无法加载配置文件 --&gt;&#10;        &lt;resources&gt;&#10;            &lt;resource&gt;&#10;                &lt;directory&gt;src/main/java&lt;/directory&gt;&#10;                &lt;includes&gt;&#10;                    &lt;include&gt;**/*.xml&lt;/include&gt;&#10;                    &lt;include&gt;**/*.properties&lt;/include&gt;&#10;                &lt;/includes&gt;&#10;            &lt;/resource&gt;&#10;            &lt;resource&gt;&#10;                &lt;directory&gt;src/main/resources&lt;/directory&gt;&#10;                &lt;includes&gt;&#10;                    &lt;include&gt;**/*.xml&lt;/include&gt;&#10;                    &lt;include&gt;**/*.properties&lt;/include&gt;&#10;                &lt;/includes&gt;&#10;            &lt;/resource&gt;&#10;        &lt;/resources&gt;&#10;    &lt;/build&gt;" shortcut="ENTER" description="&lt;build&gt;         &lt;finalName&gt;${project.artifactId}&lt;/finalName&gt;         &lt;testSourceDirectory&gt;src/test/java&lt;/testSourceDirectory&gt;         &lt;sourceDirectory&gt;src/main/java&lt;/sourceDirectory&gt;         &lt;!--处理无法加载配置文件 --&gt;         &lt;resources&gt;             &lt;resource&gt;                 &lt;directory&gt;src/main/java&lt;/directory&gt;                 &lt;includes&gt;                     &lt;include&gt;**/*.xml&lt;/include&gt;                     &lt;include&gt;**/*.properties&lt;/include&gt;                 &lt;/includes&gt;             &lt;/resource&gt;             &lt;resource&gt;                 &lt;directory&gt;src/main/resources&lt;/directory&gt;                 &lt;includes&gt;                     &lt;include&gt;**/*.xml&lt;/include&gt;                     &lt;include&gt;**/*.properties&lt;/include&gt;&lt;/includes&gt;  &lt;/resource&gt;         &lt;/resources&gt;     &lt;/build&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mservlet" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#10;            &lt;version&gt;4.0.1&lt;/version&gt;&#10;            &lt;scope&gt;provided&lt;/scope&gt;&#10;        &lt;/dependency&gt;&#10;&#10;       " shortcut="ENTER" description="&lt;dependency&gt;             &lt;groupId&gt;javax.servlet&lt;/groupId&gt;             &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;             &lt;version&gt;4.0.1&lt;/version&gt;             &lt;scope&gt;provided&lt;/scope&gt;         &lt;/dependency&gt;          &lt;!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --&gt;         &lt;dependency&gt;             &lt;groupId&gt;javax.servlet&lt;/groupId&gt;             &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;             &lt;version&gt;3.1.0&lt;/version&gt;             &lt;scope&gt;provided&lt;/scope&gt;         &lt;/dependency&gt;           &lt;!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --&gt;&lt;dependency&gt;&lt;groupId&gt;javax.servlet&lt;/groupId&gt;&lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&lt;version&gt;3.0.1&lt;/version&gt;&lt;scope&gt;provided&lt;/scope&gt;         &lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mjstl" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jstl&lt;/artifactId&gt;&#10;      &lt;version&gt;1.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="&lt;groupId&gt;javax.servlet&lt;/groupId&gt;       &lt;artifactId&gt;jstl&lt;/artifactId&gt;       &lt;version&gt;1.2&lt;/version&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mjsp" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;&#10;      &lt;version&gt;2.2&lt;/version&gt;&#10;      &lt;scope&gt;provided&lt;/scope&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="&lt;dependency&gt;       &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;       &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;       &lt;version&gt;2.2&lt;/version&gt; &lt;scope&gt;provided&lt;/scope&gt;     &lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+</templateSet>

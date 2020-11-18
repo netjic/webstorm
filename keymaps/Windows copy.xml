@@ -1,0 +1,27 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="Console.TableResult.SetNull" />
+  <action id="EditorContextInfo" />
+  <action id="Inline" />
+  <action id="Kotlin.RunScratch" />
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
+  <action id="ViewMainMenu">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="ViewNavigationBar">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="ViewStatusBar">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="ViewToolBar">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="ViewToolButtons">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+</keymap>
