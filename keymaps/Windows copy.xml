@@ -16,6 +16,9 @@
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.SetDefault" />
   <action id="Console.TableResult.SetNull" />
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditorContextInfo" />
   <action id="EditorScrollBottom">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
