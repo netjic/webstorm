@@ -19,7 +19,7 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="jsp" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="ENTER" description="&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt;     &lt;meta charset=&quot;UTF-8&quot;&gt;     &lt;title&gt;Title&lt;/title&gt; &lt;/head&gt; &lt;body&gt;  &lt;/body&gt; &lt;/html&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="jsp" value="&lt;%@ page contentType=&quot;text/html;charset=UTF-8&quot; language=&quot;java&quot; %&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;%&#10;    if (session.getAttribute(&quot;user&quot;)==null){&#10;        out.print(&quot;登录失败1&quot;);&#10;    }else{&#10;        out.print(&quot;登录成功&quot;);&#10;    }&#10;%&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="ENTER" description="&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt;     &lt;meta charset=&quot;UTF-8&quot;&gt;     &lt;title&gt;Title&lt;/title&gt; &lt;/head&gt; &lt;body&gt;  &lt;/body&gt; &lt;/html&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSP" value="true" />
     </context>
@@ -42,6 +42,73 @@
   <template name="mjsp" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;&#10;      &lt;version&gt;2.2&lt;/version&gt;&#10;      &lt;scope&gt;provided&lt;/scope&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="&lt;dependency&gt;       &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;       &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;       &lt;version&gt;2.2&lt;/version&gt; &lt;scope&gt;provided&lt;/scope&gt;     &lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="form" value="&lt;form action=&quot;$end$&quot;&gt;&#10;    账号：&lt;input type=&quot;text&quot;&gt;&lt;br&gt;&#10;    密码：&lt;input type=&quot;password&quot;&gt;&#10;&lt;/form&gt;" shortcut="ENTER" description="&lt;form action=&quot;&quot;&gt;     账号：&lt;input type=&quot;text&quot;&gt;&lt;br&gt;     密码：&lt;input type=&quot;password&quot;&gt; &lt;/form&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="radio" value="&lt;form&gt;&#10;    &lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;&quot;&gt;?&lt;br&gt;&#10;    &lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;&quot;&gt;?&#10;&lt;/form&gt;" shortcut="ENTER" description="&lt;form&gt;     &lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;&quot;&gt;?&lt;br&gt;     &lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;&quot;&gt;? &lt;/form&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="checkbox" value="&lt;form&gt;&#10;    &lt;input type=&quot;checkbox&quot; name=&quot;vehicle&quot; value=&quot;&quot;&gt;?&lt;br&gt;&#10;    &lt;input type=&quot;checkbox&quot; name=&quot;vehicle&quot; value=&quot;&quot;&gt;?&#10;&lt;/form&gt;" shortcut="ENTER" description="&lt;form&gt;     &lt;input type=&quot;checkbox&quot; name=&quot;vehicle&quot; value=&quot;&quot;&gt;?&lt;br&gt;     &lt;input type=&quot;checkbox&quot; name=&quot;vehicle&quot; value=&quot;&quot;&gt;? &lt;/form&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="mis" value="Map&lt;Integer, String&gt; mis = new HashMap&lt;&gt;();" shortcut="ENTER" description="Map&lt;Integer, String&gt; is = new HashMap&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="mss" value=" Map&lt;String, String&gt; mss = new HashMap&lt;&gt;();" shortcut="ENTER" description="Map&lt;String, String&gt; ss = new HashMap&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="mso" value=" Map&lt;String, Object&gt; mso = new HashMap&lt;&gt;();" shortcut="ENTER" description="Map&lt;String, Object&gt; so = new HashMap&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="msi" value="Map&lt;String, Integer&gt; msi = new HashMap&lt;&gt;();" shortcut="ENTER" description="Map&lt;String, Integer&gt; si = new HashMap&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="ls" value=" List&lt;String&gt; ls = new ArrayList&lt;&gt;();" shortcut="ENTER" description="List&lt;String&gt; ls = new ArrayList&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="li" value="List&lt;Integer&gt; li = new ArrayList&lt;&gt;();" shortcut="ENTER" description="List&lt;Integer&gt; li = new ArrayList&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="ll" value=" List&lt;Long&gt; ll = new ArrayList&lt;&gt;();" shortcut="ENTER" description="List&lt;Long&gt; ll = new ArrayList&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="lb" value="List&lt;Double&gt; lb = new ArrayList&lt;&gt;();" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
     </context>
   </template>
 </templateSet>

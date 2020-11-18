@@ -55,14 +55,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="fis" value="FileInputStream fis = new FileInputStream($kk$);" shortcut="ENTER" description="FileInputStream fis = new FileInputStream(f);" toReformat="false" toShortenFQNames="true">
-    <variable name="kk" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="fis" value="FileInputStream fis;&#10;&#10;{&#10;    try {&#10;        fis = new FileInputStream($end$);&#10;    } catch (FileNotFoundException e) {&#10;        e.printStackTrace();&#10;    }&#10;}" shortcut="ENTER" description="FileInputStream fis = new FileInputStream(f);" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="fos" value="FileOutputStream fos = new FileOutputStream($jj$);" shortcut="ENTER" description="FileOutputStream fos = new FileOutputStream();" toReformat="false" toShortenFQNames="true">
-    <variable name="jj" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="fos" value="FileOutputStream fos;&#10;&#10;{&#10;    try {&#10;        fos = new FileOutputStream($end$);&#10;    } catch (FileNotFoundException e) {&#10;        e.printStackTrace();&#10;    }&#10;}" shortcut="ENTER" description="FileOutputStream fos = new FileOutputStream();" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
