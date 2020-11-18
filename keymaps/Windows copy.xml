@@ -1,14 +1,49 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+  </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="ChangesView.GroupBy.Module" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
+  <action id="Console.TableResult.SetDefault" />
   <action id="Console.TableResult.SetNull" />
   <action id="EditorContextInfo" />
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="EditorScrollLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="EditorScrollRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="ExtractFunction" />
+  <action id="ExtractMethod" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Inline" />
   <action id="Kotlin.RunScratch" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
+  <action id="TodoViewGroupByShowModules" />
+  <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageGrouping.Module" />
   <action id="ViewMainMenu">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
