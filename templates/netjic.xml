@@ -105,7 +105,7 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="lb" value="List&lt;Double&gt; lb = new ArrayList&lt;&gt;();" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="lb" value="List&lt;Double&gt; lb = new ArrayList&lt;&gt;();" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JSP" value="true" />
