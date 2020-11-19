@@ -19,7 +19,7 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="jsp" value="&lt;%@ page contentType=&quot;text/html;charset=UTF-8&quot; language=&quot;java&quot; %&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;%&#10;    if (session.getAttribute(&quot;user&quot;)==null){&#10;        out.print(&quot;登录失败1&quot;);&#10;    }else{&#10;        out.print(&quot;登录成功&quot;);&#10;    }&#10;%&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="ENTER" description="&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt;     &lt;meta charset=&quot;UTF-8&quot;&gt;     &lt;title&gt;Title&lt;/title&gt; &lt;/head&gt; &lt;body&gt;  &lt;/body&gt; &lt;/html&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="jsp" value="&lt;%@ page contentType=&quot;text/html;charset=UTF-8&quot; language=&quot;java&quot; %&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="ENTER" description="&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt;     &lt;meta charset=&quot;UTF-8&quot;&gt;     &lt;title&gt;Title&lt;/title&gt; &lt;/head&gt; &lt;body&gt;  &lt;/body&gt; &lt;/html&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JSP" value="true" />
     </context>
