@@ -1,5 +1,5 @@
 <templateSet group="netjic">
-  <template name="mmsql" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;      &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;      &lt;version&gt;8.0.22&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="mysql-connector-java" toReformat="false" toShortenFQNames="true">
+  <template name="mmsq" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;      &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;      &lt;version&gt;8.0.22&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="mysql-connector-java" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
@@ -34,12 +34,12 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="mjstl" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jstl&lt;/artifactId&gt;&#10;      &lt;version&gt;1.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="&lt;groupId&gt;javax.servlet&lt;/groupId&gt;       &lt;artifactId&gt;jstl&lt;/artifactId&gt;       &lt;version&gt;1.2&lt;/version&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="mjstl" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jstl&lt;/artifactId&gt;&#10;      &lt;version&gt;1.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="jstl 1.2" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="mjsp" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;&#10;      &lt;version&gt;2.2&lt;/version&gt;&#10;      &lt;scope&gt;provided&lt;/scope&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="&lt;dependency&gt;       &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;       &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;       &lt;version&gt;2.2&lt;/version&gt; &lt;scope&gt;provided&lt;/scope&gt;     &lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="mjsp" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;&#10;      &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;&#10;      &lt;version&gt;2.2&lt;/version&gt;&#10;      &lt;scope&gt;provided&lt;/scope&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="jsp-api 2.2" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
@@ -131,6 +131,56 @@
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="mjavax" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#10;            &lt;version&gt;4.0.1&lt;/version&gt;&#10;            &lt;scope&gt;provided&lt;/scope&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="javax.servlet-api 4.0.1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mdurid" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.alibaba&lt;/groupId&gt;&#10;            &lt;artifactId&gt;druid&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.3&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="druid 1.2.3" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="Dd" value="public class Dd {&#10;    static DruidDataSource dataSource;&#10;    private static Connection connection;&#10;    static {&#10;        Properties properties = new Properties();&#10;&#10;        try {&#10;            properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(&quot;db.properties&quot;));&#10;            dataSource = (DruidDataSource) DruidDataSourceFactory.createDataSource(properties);&#10;           connection = dataSource.getConnection();&#10;&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        } catch (Exception e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;    public Connection getConnection(){&#10;        try {&#10;             Connection connection= dataSource.getConnection();&#10;        } catch (SQLException throwables) {&#10;            throwables.printStackTrace();&#10;        }&#10;        return connection;&#10;    }&#10;&#10;}" shortcut="ENTER" description="DruidDataSource dataSource" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dmc" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;Context&gt;&#10;    &lt;Resource name=&quot;druid&quot; auth=&quot;Container&quot; type=&quot;javax.sql.DataSource&quot;&#10;              username=&quot;root&quot;&#10;              password=&quot;&quot;&#10;              driverClassName=&quot;com.mysql.cj.jdbc.Driver&quot;&#10;              url=&quot;jdbc:mysql://localhost:3306/shopadmin?serverTimezone=PRC&quot;&#10;              factory=&quot;com.alibaba.druid.pool.DruidDataSourceFactory&quot;/&gt;&#10;&lt;/Context&gt;&#10;" shortcut="ENTER" description="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Context&gt;     &lt;Resource name=&quot;druid&quot; auth=&quot;Container&quot; factory=&quot;com.alibaba.druid.pool.DruidDataSourceFactory&quot;/&gt; &lt;/Context&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="druidp" value="druid.ClassName=com.mysql.cj.jdbc.Driver&#10;druid.url=jdbc:mysql://localhost:3306/shopadmin?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=PRC&#10;druid.password=&#10;druid.username=root&#10;druid.initialSize=10&#10;druid.maxActive=11" shortcut="ENTER" description="druid.ClassName=com.mysql.cj.jdbc." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
 </templateSet>
