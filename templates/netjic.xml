@@ -183,4 +183,9 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
+  <template name="druidutils" value="package cn.netjic;&#10;&#10;import com.alibaba.druid.pool.DruidDataSource;&#10;import com.alibaba.druid.pool.DruidDataSourceFactory;&#10;&#10;import javax.sql.DataSource;&#10;import java.io.IOException;&#10;import java.sql.Connection;&#10;import java.sql.SQLException;&#10;import java.util.Collection;&#10;import java.util.Properties;&#10;&#10;/**&#10; * &lt;p&gt;Description&lt;/p&gt;&#10; *&#10; * @Auther: netjic@163.com&#10; * @Date: 2020/11/24/16:39&#10; */&#10;public class Dd {&#10;    static DruidDataSource dataSource;&#10;    private static Connection connection;&#10;    static {&#10;        Properties properties = new Properties();&#10;&#10;        try {&#10;            properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(&quot;db.properties&quot;));&#10;            dataSource = (DruidDataSource) DruidDataSourceFactory.createDataSource(properties);&#10;           connection = dataSource.getConnection();&#10;&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        } catch (Exception e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;    public Connection getConnection(){&#10;        try {&#10;             Connection connection= dataSource.getConnection();&#10;        } catch (SQLException throwables) {&#10;            throwables.printStackTrace();&#10;        }&#10;        return connection;&#10;    }&#10;&#10;}&#10;&#10;" shortcut="ENTER" description="alibaba.druid public class Dd {" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

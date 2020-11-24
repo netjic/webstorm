@@ -32,6 +32,9 @@
   <action id="EditorScrollTop">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="EditorToggleShowLineNumbers">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
   <action id="ExtractFunction" />
   <action id="ExtractMethod" />
   <action id="Forward">
@@ -39,9 +42,6 @@
   </action>
   <action id="Inline" />
   <action id="Kotlin.RunScratch" />
-  <action id="NewClass">
-    <keyboard-shortcut first-keystroke="ctrl alt n" />
-  </action>
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
   <action id="TodoViewGroupByShowModules" />
