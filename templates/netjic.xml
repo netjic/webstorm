@@ -44,7 +44,7 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="form" value="&lt;form action=&quot;$end$&quot;&gt;&#10;    账号：&lt;input type=&quot;text&quot;&gt;&lt;br&gt;&#10;    密码：&lt;input type=&quot;password&quot;&gt;&#10;&lt;/form&gt;" shortcut="ENTER" description="&lt;form action=&quot;&quot;&gt;     账号：&lt;input type=&quot;text&quot;&gt;&lt;br&gt;     密码：&lt;input type=&quot;password&quot;&gt; &lt;/form&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="form" value="&lt;form action=&quot;$end$&quot;&gt;&#10;    账号：&lt;input type=&quot;text&quot;&gt;&lt;br&gt;&#10;    密码：&lt;input type=&quot;password&quot;&gt;&#10;    &lt;input type=&quot;submit&quot; value=&quot;提交&quot;&gt;&#10;&lt;/form&gt;&#10;" shortcut="ENTER" description="&lt;form action=&quot;&quot;&gt;     账号：&lt;input type=&quot;text&quot;&gt;&lt;br&gt;     密码：&lt;input type=&quot;password&quot;&gt; &lt;/form&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
