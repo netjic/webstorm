@@ -193,4 +193,11 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
+  <template name="out" value="out.print($end$);" shortcut="ENTER" description="out.print();" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
 </templateSet>
