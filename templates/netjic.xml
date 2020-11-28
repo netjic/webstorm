@@ -143,7 +143,7 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="Dd" value="public class Dd {&#10;    static DruidDataSource dataSource;&#10;    private static Connection connection;&#10;    static {&#10;        Properties properties = new Properties();&#10;&#10;        try {&#10;            properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(&quot;db.properties&quot;));&#10;            dataSource = (DruidDataSource) DruidDataSourceFactory.createDataSource(properties);&#10;           connection = dataSource.getConnection();&#10;&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        } catch (Exception e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;    public Connection getConnection(){&#10;        try {&#10;             Connection connection= dataSource.getConnection();&#10;        } catch (SQLException throwables) {&#10;            throwables.printStackTrace();&#10;        }&#10;        return connection;&#10;    }&#10;&#10;}" shortcut="ENTER" description="DruidDataSource dataSource" toReformat="false" toShortenFQNames="true">
+  <template name="datasource" value="public class Dd {&#10;    static DruidDataSource dataSource;&#10;    private static Connection connection;&#10;    static {&#10;        Properties properties = new Properties();&#10;&#10;        try {&#10;            properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(&quot;db.properties&quot;));&#10;            dataSource = (DruidDataSource) DruidDataSourceFactory.createDataSource(properties);&#10;           connection = dataSource.getConnection();&#10;&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        } catch (Exception e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;    public Connection getConnection(){&#10;        try {&#10;             Connection connection= dataSource.getConnection();&#10;        } catch (SQLException throwables) {&#10;            throwables.printStackTrace();&#10;        }&#10;        return connection;&#10;    }&#10;&#10;}" shortcut="ENTER" description="DruidDataSource dataSource" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
@@ -153,7 +153,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="druidp" value="druid.ClassName=com.mysql.cj.jdbc.Driver&#10;druid.url=jdbc:mysql://localhost:3306/shopadmin?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=PRC&#10;druid.password=&#10;druid.username=root&#10;druid.initialSize=10&#10;druid.maxActive=11" shortcut="ENTER" description="druid.ClassName=com.mysql.cj.jdbc." toReformat="false" toShortenFQNames="true">
+  <template name="druidprop" value="druid.ClassName=com.mysql.cj.jdbc.Driver&#10;druid.url=jdbc:mysql://localhost:3306/shopadmin?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=PRC&#10;druid.password=&#10;druid.username=root&#10;druid.initialSize=10&#10;druid.maxActive=11" shortcut="ENTER" description="druid.ClassName=com.mysql.cj.jdbc." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
@@ -186,6 +186,11 @@
   <template name="druidutils" value="package cn.netjic;&#10;&#10;import com.alibaba.druid.pool.DruidDataSource;&#10;import com.alibaba.druid.pool.DruidDataSourceFactory;&#10;&#10;import javax.sql.DataSource;&#10;import java.io.IOException;&#10;import java.sql.Connection;&#10;import java.sql.SQLException;&#10;import java.util.Collection;&#10;import java.util.Properties;&#10;&#10;/**&#10; * &lt;p&gt;Description&lt;/p&gt;&#10; *&#10; * @Auther: netjic@163.com&#10; * @Date: 2020/11/24/16:39&#10; */&#10;public class Dd {&#10;    static DruidDataSource dataSource;&#10;    private static Connection connection;&#10;    static {&#10;        Properties properties = new Properties();&#10;&#10;        try {&#10;            properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream(&quot;db.properties&quot;));&#10;            dataSource = (DruidDataSource) DruidDataSourceFactory.createDataSource(properties);&#10;           connection = dataSource.getConnection();&#10;&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        } catch (Exception e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;    public Connection getConnection(){&#10;        try {&#10;             Connection connection= dataSource.getConnection();&#10;        } catch (SQLException throwables) {&#10;            throwables.printStackTrace();&#10;        }&#10;        return connection;&#10;    }&#10;&#10;}&#10;&#10;" shortcut="ENTER" description="alibaba.druid public class Dd {" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mmail" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.sun.mail&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.mail&lt;/artifactId&gt;&#10;            &lt;version&gt;1.6.2&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="&lt;dependency&gt;             &lt;groupId&gt;com.sun.mail&lt;/groupId&gt;             &lt;artifactId&gt;javax.mail&lt;/artifactId&lt;version&gt;1.6.2&lt;/version&gt;&lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
     </context>
   </template>
 </templateSet>
