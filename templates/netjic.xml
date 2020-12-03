@@ -1,5 +1,5 @@
 <templateSet group="netjic">
-  <template name="mmsq" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;      &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;      &lt;version&gt;8.0.22&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="mysql-connector-java" toReformat="false" toShortenFQNames="true">
+  <template name="mmsq" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;      &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;      &lt;version&gt;8.0.22&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="mysql-connector-java 8.0.22" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
@@ -29,7 +29,7 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="mservlet" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#10;            &lt;version&gt;4.0.1&lt;/version&gt;&#10;            &lt;scope&gt;provided&lt;/scope&gt;&#10;        &lt;/dependency&gt;&#10;&#10;       " shortcut="ENTER" description="&lt;dependency&gt;             &lt;groupId&gt;javax.servlet&lt;/groupId&gt;             &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;             &lt;version&gt;4.0.1&lt;/version&gt;             &lt;scope&gt;provided&lt;/scope&gt;         &lt;/dependency&gt;          &lt;!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --&gt;         &lt;dependency&gt;             &lt;groupId&gt;javax.servlet&lt;/groupId&gt;             &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;             &lt;version&gt;3.1.0&lt;/version&gt;             &lt;scope&gt;provided&lt;/scope&gt;         &lt;/dependency&gt;           &lt;!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --&gt;&lt;dependency&gt;&lt;groupId&gt;javax.servlet&lt;/groupId&gt;&lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&lt;version&gt;3.0.1&lt;/version&gt;&lt;scope&gt;provided&lt;/scope&gt;         &lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="mservlet" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#10;            &lt;version&gt;4.0.1&lt;/version&gt;&#10;            &lt;scope&gt;provided&lt;/scope&gt;&#10;        &lt;/dependency&gt;&#10;&#10;       " shortcut="ENTER" description="javax.servlet-api 4.0.1" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
@@ -133,7 +133,7 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="mjavax" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#10;            &lt;version&gt;4.0.1&lt;/version&gt;&#10;            &lt;scope&gt;provided&lt;/scope&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="javax.servlet-api 4.0.1" toReformat="false" toShortenFQNames="true">
+  <template name="mservletj" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#10;            &lt;version&gt;4.0.1&lt;/version&gt;&#10;            &lt;scope&gt;provided&lt;/scope&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="javax.servlet-api 4.0.1" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
@@ -188,7 +188,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="mmail" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.sun.mail&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.mail&lt;/artifactId&gt;&#10;            &lt;version&gt;1.6.2&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="&lt;dependency&gt;             &lt;groupId&gt;com.sun.mail&lt;/groupId&gt;             &lt;artifactId&gt;javax.mail&lt;/artifactId&lt;version&gt;1.6.2&lt;/version&gt;&lt;/dependency&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="mmail" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.sun.mail&lt;/groupId&gt;&#10;            &lt;artifactId&gt;javax.mail&lt;/artifactId&gt;&#10;            &lt;version&gt;1.6.2&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="javax.mail 1.6.2" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
     </context>
@@ -203,6 +203,16 @@
   <template name="dtf" value="DateTimeFormatter dtf = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;);" shortcut="ENTER" description="DateTimeFormatter dtf = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;);" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mcomfileupload" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;commons-fileupload&lt;/groupId&gt;&#10;      &lt;artifactId&gt;commons-fileupload&lt;/artifactId&gt;&#10;      &lt;version&gt;1.4&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="commons-fileupload 1.4" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mcomio" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;commons-io&lt;/groupId&gt;&#10;      &lt;artifactId&gt;commons-io&lt;/artifactId&gt;&#10;      &lt;version&gt;2.8.0&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="commons-io 2.8.0" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
     </context>
   </template>
 </templateSet>
