@@ -220,4 +220,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="pw" value="PrintWriter out = resp.getWriter();" shortcut="ENTER" description="PrintWriter out = resp.getWriter();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
