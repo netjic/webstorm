@@ -225,4 +225,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="mfree" value="    &lt;dependency&gt;&#10;            &lt;groupId&gt;org.freemarker&lt;/groupId&gt;&#10;            &lt;artifactId&gt;freemarker&lt;/artifactId&gt;&#10;            &lt;version&gt;2.3.30&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="org.freemarker2.3.30" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
 </templateSet>
