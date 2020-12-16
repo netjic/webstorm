@@ -230,4 +230,9 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
+  <template name="border" value="border: black solid 1px;" shortcut="ENTER" description="border: black solid 1px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
