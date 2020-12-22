@@ -235,4 +235,9 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="ajax" value="$.ajax({&#10;        url: '/ajaxup',&#10;        type: 'POST',&#10;        data: filedata,&#10;        contentType: false,&#10;        processData: false,&#10;        dataType: &quot;json&quot;,&#10;        cache: false,&#10;        sync: true,&#10;        success: function (e) {&#10;            console.log(&quot;success&quot;)&#10;        }&#10;    })" shortcut="ENTER" description="$.ajax({" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
