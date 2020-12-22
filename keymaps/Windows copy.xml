@@ -12,6 +12,9 @@
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.SetDefault" />
@@ -40,6 +43,7 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="HippieCompletion" />
   <action id="Inline" />
   <action id="Kotlin.RunScratch" />
   <action id="NextOccurence" />
