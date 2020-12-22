@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="alt f2" />
+  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
@@ -22,6 +25,9 @@
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.SetDefault" />
   <action id="Console.TableResult.SetNull" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="alt f2" />
+  </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
@@ -49,6 +55,9 @@
   <action id="HippieCompletion" />
   <action id="Inline" />
   <action id="Kotlin.RunScratch" />
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
   <action id="ProjectViewChangeView" />
@@ -58,6 +67,7 @@
   <action id="SelectIn" />
   <action id="StepOver" />
   <action id="TodoViewGroupByShowModules" />
+  <action id="ToggleRenderedDocPresentation" />
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.Module" />
   <action id="ViewMainMenu">
@@ -75,4 +85,5 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="WebOpenInAction" />
 </keymap>
