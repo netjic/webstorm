@@ -61,8 +61,12 @@
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
   <action id="ProjectViewChangeView" />
+  <action id="Resume" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="SelectIn" />
   <action id="StepOver" />
