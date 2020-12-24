@@ -4,7 +4,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="/**" value="/**&#10; * @Description:&#10; * @Param:&#10; * @return:&#10; */" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="/**" value="/**&#10; * @Description:&#10; * @Param:&#10; * @return:&#10; */" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
