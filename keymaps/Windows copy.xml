@@ -25,6 +25,9 @@
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.SetDefault" />
   <action id="Console.TableResult.SetNull" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="alt f2" />
   </action>
@@ -54,6 +57,13 @@
   </action>
   <action id="HippieCompletion" />
   <action id="Inline" />
+  <action id="JRebel Debug">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="JRebel Executor">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="JumpToLastWindow" />
   <action id="Kotlin.RunScratch" />
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
@@ -71,6 +81,7 @@
   <action id="SelectIn" />
   <action id="StepOver" />
   <action id="TodoViewGroupByShowModules" />
+  <action id="ToggleBookmark" />
   <action id="ToggleRenderedDocPresentation" />
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.Module" />
