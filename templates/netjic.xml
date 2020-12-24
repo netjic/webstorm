@@ -240,4 +240,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="htable" value="&lt;style&gt;&#10;    table{&#10;        border-collapse: collapse;&#10;        margin: auto;&#10;        text-align: left;&#10;    }&#10;    table tr th{&#10;        padding: 3px 7px 2px 7px;&#10;        border: 1px solid #98bf21;&#10;        background-color: #A7C942;&#10;        color: #ffffff;&#10;        padding-top: 5px;&#10;        padding-bottom: 4px;&#10;    }&#10;    table tr td{&#10;        border: silver solid 1px;&#10;        padding: 3px 7px 2px 7px;&#10;&#10;&#10;&#10;    }&#10;&lt;/style&gt;&#10;&lt;table&gt;&#10;    &lt;tr&gt;&#10;        &lt;th&gt;名称&lt;/th&gt;&#10;        &lt;th&gt;价钱&lt;/th&gt;&#10;        &lt;th&gt;库存&lt;/th&gt;&#10;        &lt;th&gt;时间&lt;/th&gt;&#10;    &lt;/tr&gt;&#10;    &lt;tr&gt;&#10;        &lt;td&gt;苹果&lt;/td&gt;&#10;        &lt;td&gt;12.5&lt;/td&gt;&#10;        &lt;td&gt;100&lt;/td&gt;&#10;        &lt;td&gt;2020-12-24&lt;/td&gt;&#10;    &lt;/tr&gt; &lt;tr&gt;&#10;        &lt;td&gt;苹果&lt;/td&gt;&#10;        &lt;td&gt;12.5&lt;/td&gt;&#10;        &lt;td&gt;100&lt;/td&gt;&#10;        &lt;td&gt;2020-12-24&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;&lt;/table&gt;" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
