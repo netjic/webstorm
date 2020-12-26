@@ -250,7 +250,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="mjson" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.alibaba&lt;/groupId&gt;&#10;            &lt;artifactId&gt;fastjson&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.75&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="mjson" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.alibaba&lt;/groupId&gt;&#10;            &lt;artifactId&gt;fastjson&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.75&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
