@@ -68,6 +68,9 @@
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
+  <action id="NewElementMenu">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
   <action id="ProjectViewChangeView" />
