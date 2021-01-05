@@ -14,9 +14,13 @@
           <option name="url" value="http://gitee.com" />
           <option name="userName" value="netjic" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ljianshu/mt-app.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\ideaIU\code" />
+    <option name="cloneParentDir" value="E:\ideaproject" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
